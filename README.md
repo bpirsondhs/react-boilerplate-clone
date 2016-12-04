@@ -52,27 +52,11 @@
   <sub>Made with ❤︎ by <a href="https://twitter.com/mxstbr">Max Stoiber</a> and <a href="https://github.com/mxstbr/react-boilerplate/graphs/contributors">contributors</a>. <i>If you're using this boilerplate, we'd love to <a href="https://github.com/mxstbr/react-boilerplate/issues/115">hear from you</a>!</i></sub>
 </div>
 
-#### Contents
-
-* [Features (* plus additional features from Structor)](README.md#features-plus-additional-features-from-structor)
-* [Quick start](README.md#quick-start-changed)
-  * [Running Structor](README.md#running-structor)
-* [The changes made for Structor compatibility](README.md#the-changes-for-structor)
-* [Documentation](README.md#documentation)
-* [Supporters](README.md#supporters)
-* [License](README.md#license)
-
-## Features (*plus additional features from Structor)
+## Features
 
 <dl>
   <dt>Quick scaffolding</dt>
   <dd>Create components, containers, routes, selectors and sagas - and their tests - right from the CLI!</dd>
-
-  <dt>*WYSIWYG editor</dt>
-  <dd>Visually compose components in Structor's workspace and generate scaffolds of complex components. You may construct a React component of any complexity combining components and styling them right on the page. </dd>
-
-  <dt>*Library of components</dt>
-  <dd>Install many components from <a href="https://helmetrex.com">Structor Market</a> library.</dd>
 
   <dt>Instant feedback</dt>
   <dd>Enjoy the best DX (Developer eXperience) and code your app at the speed of thought! Your saved changes to the CSS and JS are reflected instantaneously without refreshing the page. Preserve application state even when you update something in the underlying code!</dd>
