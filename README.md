@@ -54,13 +54,13 @@
 
 #### Contents
 
-* [Features (* plus additional features from Structor)](https://github.com/ipselon/react-boilerplate/blob/master/README.md#features-plus-additional-features-from-structor)
-* [Quick start](https://github.com/ipselon/react-boilerplate/blob/master/README.md#quick-start-changed)
-  * [Running Structor](https://github.com/ipselon/react-boilerplate/blob/master/README.md#running-structor)
-* [The changes made for Structor compatibility](https://github.com/ipselon/react-boilerplate/blob/master/README.md#the-changes-for-structor)
-* [Documentation](https://github.com/ipselon/react-boilerplate/blob/master/README.md#documentation)
-* [Supporters](https://github.com/ipselon/react-boilerplate/blob/master/README.md#supporters)
-* [License](https://github.com/ipselon/react-boilerplate/blob/master/README.md#license)
+* [Features (* plus additional features from Structor)](README.md#features-plus-additional-features-from-structor)
+* [Quick start](README.md#quick-start-changed)
+  * [Running Structor](README.md#running-structor)
+* [The changes made for Structor compatibility](README.md#the-changes-for-structor)
+* [Documentation](README.md#documentation)
+* [Supporters](README.md#supporters)
+* [License](README.md#license)
 
 ## Features (*plus additional features from Structor)
 
@@ -116,7 +116,7 @@ There’s also a <a href="https://vimeo.com/168648012">fantastic video</a> on ho
 
 ## Quick start
 
-1. Clone this repo using `git clone https://github.com/ipselon/react-boilerplate.git` OR download and unpack ZIP [master.zip](https://github.com/ipselon/react-boilerplate/archive/master.zip).
+1. Clone this repo using `git clone https://github.com/ipselon/react-boilerplate-clone.git` OR download and unpack ZIP [master.zip](https://github.com/ipselon/react-boilerplate-clone/archive/master.zip).
 1. Run `npm run setup` to install dependencies and clean the git repo.<br />
    *We auto-detect `yarn` for installing packages by default, if you wish to force `npm` usage do: `USE_YARN=false npm run setup`*<br />
    *At this point you can run `npm start` to see the example app at `http://localhost:3000`.*
