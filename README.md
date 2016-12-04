@@ -1,4 +1,5 @@
 #### A clone of React Boilerplate Project integrated with Structor (former React UI Builder).
+**Note: Synced with every React Boilerplate release**
 
 <img src="https://raw.githubusercontent.com/mxstbr/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
 
