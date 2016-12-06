@@ -119,7 +119,6 @@ Now you're ready to rumble!
 
 1. `.structor` metadata directory is added.
 1. Additional `structor` command is added into `scripts` section in `package.json` file.
-1. Additional `webpack.structor.babel.js` configuration is added into `internals/webpack` directory.
 1. Additional `app/assets` directory is added.
 1. In order to use custom CSS files without packing them into npm modules the following changes were made in `webpack.base.babel.js`:
 ```diff
