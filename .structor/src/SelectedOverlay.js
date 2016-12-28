@@ -278,7 +278,7 @@ class SelectedOverlay extends Component {
 								 title="Insert into selected as first child"
 								 onClick={this.handleButtonClick(selectedKey, onFirst)}
 								 style={{borderRight: '1px solid #FFFFFF'}}/>
-							<div className="selected-overlay-button umy-icon-edit success"
+							<div className="selected-overlay-button umy-icon-edit selected-overlay-button-success"
 								 onClick={this.handleButtonClick(selectedKey, onLoadOptions)}
 								 title="Edit component properties"
 								 style={{borderRight: '1px solid #FFFFFF'}}/>
@@ -291,7 +291,7 @@ class SelectedOverlay extends Component {
 							<div className="selected-overlay-button umy-icon-replace"
 								 title="Replace selected"
 								 onClick={this.handleButtonClick(selectedKey, onReplace)}/>
-							<div className="selected-overlay-button umy-icon-delete warning"
+							<div className="selected-overlay-button umy-icon-delete selected-overlay-button-warning"
 								 title="Remove component from the page"
 								 onClick={this.handleButtonClick(selectedKey, onDelete)}
 								 style={{borderLeft: '1px solid #FFFFFF'}}/>

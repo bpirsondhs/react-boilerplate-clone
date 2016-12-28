@@ -38,9 +38,9 @@
     background-color: #2185D0;
     opacity: 1;
 }
-.warning {
+.selected-overlay-button-warning {
     background-color: #f0ad4e;
 }
-.success {
+.selected-overlay-button-success {
     background-color: #78CB5B;
 }
