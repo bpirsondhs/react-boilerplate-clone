@@ -18,7 +18,7 @@ Or you may choose to install the source code of a pre-created component into the
 
 Moreover, you have the ability to publish the source code of your component on Structor Market in order to share it or to preserve for another project.
 
-Structor uses own Webpack Dev server to compile components, and that allow you to develop UI components in isolation from application.   
+Structor uses own Webpack Dev server to compile components, and that allows you to develop UI components in isolation from application.   
 
 Structor is an open source tool, find its source code in [Structor Repository on GH](https://github.com/ipselon/structor).
 
@@ -61,6 +61,10 @@ All source code generators are available through the cloud service. You should c
 * Click on one of the appending buttons (`Add Before`, `Insert First`, `Replace`, `Insert Last`, `Add After`) from the top toolbar which you may see right above the selected component.
 * In the dialog type the name of a new component. (Here you may type the sequence of nested components delimited by dot)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ipselon/structor/master/docs/img/add-component-1.png" />
+</p>
+
 ### Add component on the page (the second way)
 
 * Open the list of available components by clicking on the plus button.
@@ -68,11 +72,19 @@ All source code generators are available through the cloud service. You should c
 * Select component which will be a sibling or a parent component for the component in the clipboard.
 * Click on one of the appending buttons (`Add Before`, `Insert First`, `Replace`, `Insert Last`, `Add After`) from the top toolbar which you may see right above the selected component. 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ipselon/structor/master/docs/img/add-component-2.png" />
+</p>
+
 ### Change style of selected component on the page
 
 * Select desired component on the page.
 * Open quick options/styles panel.
 * Set style option from the list.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ipselon/structor/master/docs/img/change-component-style.png" />
+</p>
 
 ### Scaffolding the component
 
@@ -84,7 +96,16 @@ All source code generators are available through the cloud service. You should c
     * After installation you may find new source code in `app/components/<Group>/<ComponentName>` or `app/containers/<Group>/<ComponentName>`
     * If you choose to create a Redux container you will find out that there are all bunch of needed files for Redux container: actions, constants, reducer and saga.
     * Structor is including Redux container in own Redux state which stands apart from application's Redux state. Find in `.structor/app` directory how Redux container is included into the Structor's state.  
+    
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ipselon/structor/master/docs/img/scaffolding-component-1.png" />
+</p>
+    
 * New component will appear in the list of available components. 
+
+<p align="center">
+  <img src="https://github.com/ipselon/structor/blob/master/docs/img/scaffolding-component-2.png" />
+</p>
 
 ### Install pre-created component from marketplace
 
@@ -94,11 +115,18 @@ All source code generators are available through the cloud service. You should c
 * Follow the wizard:
     * Some of pre-created components may inject npm dependencies. These deps will be installed after the source code is downloaded.
     * Some of pre-created components may add global imports like CSS files or additional resources. Such files will be placed into `app/assets` directory and will be imported through `.structor/app/components.js` file. These files should be injected manually into `app/app.js` file in order to use the component in your app.  
+    
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ipselon/structor/master/docs/img/install-component.png" />
+</p>
 
 ### View page structure
 
 * Click on the code button.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ipselon/structor/master/docs/img/treeview-page-structure.png" />
+</p>
 
 ## The changes made in original boilerplate
 
