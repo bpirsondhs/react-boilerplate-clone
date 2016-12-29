@@ -1,4 +1,4 @@
-# React Boilerplate Project Clone
+#### A React Boilerplate Project Clone
 
 ## Introduction
 
@@ -51,7 +51,9 @@ All source code generators are available through the cloud service. You should c
 * Click on the `Create account` link.
 * Follow the instruction.
 
-"sign-up-structor-market.png"
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ipselon/structor/master/docs/img/sign-up-structor-market.png" />
+</p>
 
 ### Add component on the page (the first way)
 
@@ -97,7 +99,8 @@ All source code generators are available through the cloud service. You should c
 
 * Click on the code button.
 
-#### The changes made in original boilerplate
+
+## The changes made in original boilerplate
 
 1. `.structor` metadata directory is added.
 1. Additional `structor` command is added into `scripts` section in `package.json` file.
